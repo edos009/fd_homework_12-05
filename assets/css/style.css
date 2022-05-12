@@ -1,0 +1,19 @@
+*, *::after, *::before{
+  box-sizing: border-box;
+
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+:root{
+  --main-color: orange;
+  --hover-color: rgb(202, 131, 0);
+  --text-color: #fff;
+
+  font-family: serif;
+}
